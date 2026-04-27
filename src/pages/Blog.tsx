@@ -99,7 +99,7 @@ const Blog = () => {
       </section>
 
       {/* Newsletter */}
-      /*<section className="py-20 bg-card">
+      {/*<section className="py-20 bg-card">
         <div className="container max-w-lg text-center">
           <h2 className="text-3xl mb-4">Get Digital Growth Tips</h2>
           <p className="text-muted-foreground mb-6">
@@ -110,7 +110,7 @@ const Blog = () => {
             <Button type="submit" className="rounded-full">Subscribe</Button>
           </form>
         </div>
-      </section>*/
+      </section>*/}
     </>
   );
 };
