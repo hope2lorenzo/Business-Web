@@ -22,7 +22,7 @@ const projects = [
     desc: "High-conversion lead capture site for a leading South African solar installation company.",
     tags: ["Vite", "SEO", "Conversion-Optimized"],
     images: [
-      "https://images.unsplash.com/photo-1509391366360-fe5bb58583bb?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?auto=format&fit=crop&q=80&w=1000",
       "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=1000",
       "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80&w=1000",
     ],
