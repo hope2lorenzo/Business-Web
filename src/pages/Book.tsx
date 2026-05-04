@@ -54,8 +54,8 @@ const handleSubmit = async (e: React.FormEvent) => {
   // Send email notification
   try {
     await emailjs.send(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID, //"service_75kpip2",
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, //"__ejs-test-mail-service__",
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
       {
         from_name: form.name,
         from_email: form.email,
@@ -63,7 +63,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         service: form.service,
         message: form.message,
       },
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY //"wcWct70oq4fcL_NtS"
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY 
     );
 
     toast.success("Thanks! We'll be in touch within one business day.");
