@@ -85,7 +85,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     <>
     <SEO
       title="Book a Free Strategy Call"
-      description="Schedule a free consultation with SoftDev Solutions. Let's discuss how we can help your Cape Town business grow with a custom digital strategy."
+      description="Schedule a free consultation with SoftDev Solution. Let's discuss how we can help your Cape Town business grow with a custom digital strategy."
       canonical="/book"
     />
     <section className="py-20">
