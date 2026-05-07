@@ -85,7 +85,7 @@ const Index = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "SoftDev Solutions",
+    name: "SoftDev Solution",
     url: "https://softdevsolution.co.za",
     description: "Cape Town web development agency specializing in business websites, automation systems, and e-commerce solutions.",
     potentialAction: {
@@ -99,7 +99,7 @@ const Index = () => {
     <>
       <SEO
         title="Cape Town Web Development & Business Systems"
-        description="SoftDev Solutions helps Cape Town businesses attract more customers, automate operations, and scale with professional websites and digital systems."
+        description="SoftDev Solution helps Cape Town businesses attract more customers, automate operations, and scale with professional websites and digital systems."
         canonical="/"
         jsonLd={jsonLd}
       />
