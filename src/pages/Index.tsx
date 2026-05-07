@@ -164,7 +164,7 @@ const Index = () => {
           <div>
             <h2 className="text-3xl md:text-4xl mb-6">More Than Just a Web Agency</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              At SoftDev Solutions, we don't just build websites; we build scalable digital systems. We focus on conversion, automation, and long-term results to ensure your business thrives in the digital age.
+              At SoftDev Solution, we don't just build websites; we build scalable digital systems. We focus on conversion, automation, and long-term results to ensure your business thrives in the digital age.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Based in Cape Town, we understand the local market and the needs of growing startups. Our agents work as your digital growth partners, not just service providers.
@@ -240,7 +240,7 @@ const Index = () => {
       {/* Why Us */}
       <section className="py-20">
         <div className="container">
-          <SectionLabel>Why SoftDev Solutions?</SectionLabel>
+          <SectionLabel>Why SoftDev Solution?</SectionLabel>
           <h2 className="text-3xl md:text-4xl mt-2 mb-12">Cape Town's Scalable Partner</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {whyUs.map((item) => (
