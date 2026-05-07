@@ -22,7 +22,7 @@ const Navbar = () => {
       <Link to="/" className="flex items-center gap-2">
         
         <img
-          public="/favicon.svg"
+          src="/favicon.svg"
           alt="SoftDevSolution Logo"
           className="w-8 h-8"
         />
