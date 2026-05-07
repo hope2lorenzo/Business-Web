@@ -114,7 +114,7 @@ const handleSubmit = async (e: React.FormEvent) => {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Email</p>
-                <p className="font-medium">softdev.assistance@gmail.com</p>
+                <p className="font-medium">hello@softdevsolution.co.za</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
