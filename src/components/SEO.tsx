@@ -13,8 +13,8 @@ interface SEOProps {
   modifiedTime?: string;
 }
 
-const SITE_NAME = "SoftDev Solutions";
-const BASE_URL = "https://agency-clone-artistry.lovable.app";
+const SITE_NAME = "SoftDev Solution";
+const BASE_URL = "https://softdevsolution.co.za";
 const DEFAULT_OG_IMAGE = "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=1200";
 const DEFAULT_KEYWORDS =
   "Cape Town web development, web design Cape Town, business websites South Africa, e-commerce Cape Town, business automation, SaaS development, booking systems, SEO Cape Town, custom web applications";
@@ -71,8 +71,8 @@ const SEO = ({
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@softdevsolutions" />
-      <meta name="twitter:creator" content="@softdevsolutions" />
+      <meta name="twitter:site" content="@softdevsolution" />
+      <meta name="twitter:creator" content="@softdevsolution" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
