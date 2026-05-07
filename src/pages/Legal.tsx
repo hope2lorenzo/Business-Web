@@ -8,8 +8,8 @@ type Policy = {
   body: { heading: string; text: string }[];
 };
 
-const COMPANY = "SoftDev Solutions";
-const EMAIL = "softdev.assistance@gmail.com";
+const COMPANY = "SoftDev Solution";
+const EMAIL = "hello@softdevsolution.co.za";
 const PHONE = "+27 81 794 7988";
 const LOCATION = "Cape Town, South Africa";
 const EFFECTIVE = "23 April 2026";
