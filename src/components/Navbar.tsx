@@ -20,8 +20,11 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
-          <span className="flex items-center justify-center w-8 h-8 rounded-md bg-primary text-primary-foreground font-bold text-sm">S</span>
-          <span className="font-bold text-lg tracking-tight">
+          <img
+            src="/favicon.svg"
+            alt="SoftDevSolution Logo"
+            className="w-8 h-8"
+          />
             SOFTDEV<span className="text-primary">SOLUTION</span>
           </span>
         </Link>
