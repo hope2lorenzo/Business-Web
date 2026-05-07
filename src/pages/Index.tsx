@@ -86,11 +86,11 @@ const Index = () => {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "SoftDev Solutions",
-    url: "https://agency-clone-artistry.lovable.app",
+    url: "https://softdevsolution.co.za",
     description: "Cape Town web development agency specializing in business websites, automation systems, and e-commerce solutions.",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://agency-clone-artistry.lovable.app/blog?q={search_term_string}",
+      target: "https://softdevsolution.co.za/blog?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
