@@ -19,15 +19,20 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container flex items-center justify-between h-16">
-        <Link to="/" className="flex items-center gap-2">
-          <img
-            src="/favicon.svg"
-            alt="SoftDevSolution Logo"
-            className="w-8 h-8"
-          />
-            SOFTDEV<span className="text-primary">SOLUTION</span>
-          </span>
-        </Link>
+      <Link to="/" className="flex items-center gap-2">
+        
+        <img
+          src="/favicon.svg"
+          alt="SoftDevSolution Logo"
+          className="w-8 h-8"
+        />
+  
+        <span className="font-bold text-lg tracking-tight">
+          SOFTDEV<span className="text-primary">SOLUTION</span>
+        </span>
+  
+      </Link>
+     </nav>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
