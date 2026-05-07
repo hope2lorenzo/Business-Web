@@ -15,14 +15,14 @@ const About = () => (
   <>
     <SEO
       title="About Us"
-      description="Learn about SoftDev Solutions — a Cape Town web development agency focused on building scalable digital systems for growing businesses."
+      description="Learn about SoftDev Solution — a Cape Town web development agency focused on building scalable digital systems for growing businesses."
       canonical="/about"
     />
     <section className="py-20">
       <div className="container text-center max-w-3xl">
         <SectionLabel>Our Story</SectionLabel>
         <h1 className="text-4xl md:text-6xl mt-4 mb-6">
-          We Are <span className="text-primary">SoftDev Solutions</span>
+          We Are <span className="text-primary">SoftDev Solution</span>
         </h1>
         <p className="text-muted-foreground text-lg">
           A Cape Town-based digital solutions agency dedicated to helping local businesses and startups bridge the gap between their current operations and their full digital potential.
