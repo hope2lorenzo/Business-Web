@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://agency-clone-artistry.lovable.app/sitemap.xml
+Sitemap: https://softdevsolution.co.za.xml
