@@ -11,7 +11,7 @@ const Footer = () => (
           <Link to="/" className="flex items-center gap-2 mb-4">
             <span className="flex items-center justify-center w-8 h-8 rounded-md bg-primary text-primary-foreground font-bold text-sm">S</span>
             <span className="font-bold text-lg tracking-tight">
-              SOFTDEV<span className="text-primary">SOLUTIONS</span>
+              SOFTDEV<span className="text-primary">SOLUTION</span>
             </span>
           </Link>
           <p className="text-background/60 max-w-sm text-sm leading-relaxed">
@@ -38,7 +38,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="mt-12 pt-8 border-t border-background/10 flex flex-col md:flex-row gap-4 justify-between items-center text-xs text-background/50">
-        <p>© {new Date().getFullYear()} SoftDev Solutions. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} SoftDev Solution. All rights reserved.</p>
       </div>
     </div>
     {/* WhatsApp FAB */}
