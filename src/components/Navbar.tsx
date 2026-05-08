@@ -32,7 +32,7 @@ const Navbar = () => {
         </span>
   
       </Link>
-     </nav>
+     
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
