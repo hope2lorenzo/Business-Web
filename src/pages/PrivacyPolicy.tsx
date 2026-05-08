@@ -43,7 +43,7 @@ const PrivacyPolicy = () => (
           Privacy <span className="text-primary">Policy</span>
         </h1>
         <p className="text-muted-foreground text-lg">
-          SoftDev Solutions is committed to protecting your personal information
+          SoftDev Solution is committed to protecting your personal information
           in accordance with South Africa’s Protection of Personal Information
           Act (POPIA).
         </p>
@@ -77,7 +77,7 @@ const PrivacyPolicy = () => (
           <div>
             <h2 className="text-2xl mb-3">1. Who We Are</h2>
             <p className="text-muted-foreground leading-relaxed">
-              SoftDev Solutions is a web development and digital solutions
+              SoftDev Solution is a web development and digital solutions
               business based in Cape Town, South Africa.
             </p>
             <p className="text-muted-foreground mt-4">
