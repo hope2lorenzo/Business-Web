@@ -18,23 +18,23 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+      
       <nav className="container flex items-center justify-between h-16">
-      <Link to="/" className="flex items-center gap-2">
-        
-        <img
-          src="/favicon.svg"
-          alt="SoftDevSolution Logo"
-          className="w-8 h-8"
-        />
-  
-        <span className="font-bold text-lg tracking-tight">
-          SOFTDEV<span className="text-primary">SOLUTION</span>
-        </span>
-  
-      </Link>
-     
 
-        {/* Desktop */}
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-2">
+          <img
+            src="/favicon.svg"
+            alt="SoftDevSolution Logo"
+            className="w-8 h-8"
+          />
+
+          <span className="font-bold text-lg tracking-tight">
+            SOFTDEV<span className="text-primary">SOLUTION</span>
+          </span>
+        </Link>
+
+        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
@@ -42,7 +42,9 @@ const Navbar = () => {
               to={link.href}
               className={cn(
                 "text-sm font-medium tracking-wide uppercase transition-colors hover:text-primary",
-                location.pathname === link.href ? "text-primary" : "text-foreground"
+                location.pathname === link.href
+                  ? "text-primary"
+                  : "text-foreground"
               )}
             >
               {link.label}
@@ -50,21 +52,31 @@ const Navbar = () => {
           ))}
         </div>
 
+        {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button asChild className="rounded-full gap-2">
             <Link to="/book">
-              Book Strategy Call <ArrowRight className="w-4 h-4" />
+              Book Strategy Call
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>
         </div>
 
-        {/* Mobile toggle */}
-        <button className="md:hidden p-2" onClick={() => setOpen(!open)}>
-          {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+        {/* Mobile Toggle */}
+        <button
+          className="md:hidden p-2"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
         </button>
+
       </nav>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden border-t border-border bg-background px-6 py-6 space-y-4">
           {navLinks.map((link) => (
@@ -77,9 +89,11 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
+
           <Button asChild className="w-full rounded-full gap-2">
             <Link to="/book" onClick={() => setOpen(false)}>
-              Book Strategy Call <ArrowRight className="w-4 h-4" />
+              Book Strategy Call
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>
         </div>
